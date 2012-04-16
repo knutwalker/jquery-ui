@@ -286,7 +286,7 @@ if ( !$.offset.setOffset ) {
 
 	offset = $( div ).offset( function( _, offset ) {
 		return offset;
-	}).offset();
+	});
 
 	testElement.innerHTML = "";
 	testElementParent.removeChild( testElement );
